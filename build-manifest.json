@@ -105,7 +105,7 @@
       ]
     },
     "dist/components/PeopleList.svelte.js": {
-      "bytes": 8572,
+      "bytes": 8740,
       "imports": [
         {
           "path": "dist/components/PeopleList.svelte.css",
@@ -277,7 +277,7 @@
           "bytesInOutput": 76
         },
         "dist/components/PeopleList.svelte.js": {
-          "bytesInOutput": 2788
+          "bytesInOutput": 2856
         },
         "dist/components/Person.svelte.css": {
           "bytesInOutput": 0
@@ -298,7 +298,7 @@
           "bytesInOutput": 64
         }
       },
-      "bytes": 275181
+      "bytes": 275249
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
