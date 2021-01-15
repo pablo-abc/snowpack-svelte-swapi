@@ -17,7 +17,7 @@
           <ListItem on:click="{() => $selected = person}">
             {person.name}
             <span slot=subtitle>
-              {person.species?.name || 'Human'}
+              {person.species?.name || 'Human'} from {person.homeworld.name}
             </span>
           </ListItem>
           <Divider />
