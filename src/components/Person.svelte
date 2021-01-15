@@ -11,9 +11,7 @@
 </script>
 
 <section>
-  {#await personRequest}
-    <p>Loading...</p>
-  {:then { person }}
+  {#await personRequest then { person }}
     {#if person}
       <List disabled>
         <Subheader>
