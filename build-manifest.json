@@ -1,0 +1,322 @@
+{
+  "inputs": {
+    "_snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-211a0e8f.js": {
+      "bytes": 14280,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/internal.js": {
+      "bytes": 497,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-211a0e8f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js": {
+      "bytes": 885,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte-materialify.js": {
+      "bytes": 275137,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-211a0e8f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/NavBar.svelte.css": {
+      "bytes": 52,
+      "imports": []
+    },
+    "dist/components/NavBar.svelte.js": {
+      "bytes": 1726,
+      "imports": [
+        {
+          "path": "dist/components/NavBar.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-materialify.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/PeopleList.svelte.css": {
+      "bytes": 117,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/store.js": {
+      "bytes": 1785,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-211a0e8f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/store.js": {
+      "bytes": 96,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/store.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/graphql-request.js": {
+      "bytes": 63826,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/queries.js": {
+      "bytes": 579,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/graphql-request.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/request.js": {
+      "bytes": 164,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/graphql-request.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/PeopleList.svelte.js": {
+      "bytes": 8572,
+      "imports": [
+        {
+          "path": "dist/components/PeopleList.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/store.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-materialify.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/queries.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/request.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Person.svelte.css": {
+      "bytes": 38,
+      "imports": []
+    },
+    "dist/components/PersonRow.svelte.css": {
+      "bytes": 84,
+      "imports": []
+    },
+    "dist/components/PersonRow.svelte.js": {
+      "bytes": 4351,
+      "imports": [
+        {
+          "path": "dist/components/PersonRow.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-materialify.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Person.svelte.js": {
+      "bytes": 16150,
+      "imports": [
+        {
+          "path": "dist/components/Person.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/store.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-materialify.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/queries.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/request.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/PersonRow.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/App.svelte.js": {
+      "bytes": 5108,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-materialify.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/NavBar.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/PeopleList.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Person.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.js": {
+      "bytes": 539,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [
+        "default"
+      ],
+      "inputs": {
+        "_snowpack/env.js": {
+          "bytesInOutput": 100
+        },
+        "_snowpack/pkg/common/index-211a0e8f.js": {
+          "bytesInOutput": 4890
+        },
+        "_snowpack/pkg/svelte/internal.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/common/_commonjsHelpers-798ad6a7.js": {
+          "bytesInOutput": 495
+        },
+        "_snowpack/pkg/svelte-materialify.js": {
+          "bytesInOutput": 229514
+        },
+        "dist/components/NavBar.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "dist/components/NavBar.svelte.js": {
+          "bytesInOutput": 586
+        },
+        "dist/components/PeopleList.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/svelte/store.js": {
+          "bytesInOutput": 428
+        },
+        "dist/store.js": {
+          "bytesInOutput": 12
+        },
+        "_snowpack/pkg/graphql-request.js": {
+          "bytesInOutput": 27413
+        },
+        "dist/queries.js": {
+          "bytesInOutput": 479
+        },
+        "dist/request.js": {
+          "bytesInOutput": 76
+        },
+        "dist/components/PeopleList.svelte.js": {
+          "bytesInOutput": 2788
+        },
+        "dist/components/Person.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "dist/components/PersonRow.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "dist/components/PersonRow.svelte.js": {
+          "bytesInOutput": 1248
+        },
+        "dist/components/Person.svelte.js": {
+          "bytesInOutput": 5312
+        },
+        "dist/App.svelte.js": {
+          "bytesInOutput": 1641
+        },
+        "dist/index.js": {
+          "bytesInOutput": 64
+        }
+      },
+      "bytes": 275247
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "dist/components/NavBar.svelte.css": {
+          "bytesInOutput": 52
+        },
+        "dist/components/PeopleList.svelte.css": {
+          "bytesInOutput": 117
+        },
+        "dist/components/Person.svelte.css": {
+          "bytesInOutput": 38
+        },
+        "dist/components/PersonRow.svelte.css": {
+          "bytesInOutput": 84
+        }
+      },
+      "bytes": 292
+    }
+  }
+}
