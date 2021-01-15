@@ -5,7 +5,10 @@
     "test": "web-test-runner \"src/**/*.test.js\""
   },
   "dependencies": {
-    "svelte": "^3.24.0"
+    "graphql": "^15.4.0",
+    "graphql-request": "^3.4.0",
+    "svelte": "^3.24.0",
+    "svelte-materialify": "^0.3.4"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.0.5",
